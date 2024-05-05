@@ -1,0 +1,299 @@
+{
+  "TitleTranslation": {
+    "home": "Accueil",
+    "authentication": "Authentification",
+    "notFound": "Page non trouvée",
+    "locationImage": "Image de l'emplacement",
+    "location": "Emplacement",
+    "locations": "Emplacements",
+    "userAccount": "Compte utilisateur",
+    "locationEdit": "Modifier l'emplacement",
+    "userLocation": "Emplacement de l'utilisateur",
+    "newLocation": "Nouvel emplacement",
+    "userLocations": "Emplacements de l'utilisateur",
+    "userLocationsLiked": "Emplacements aimés par l'utilisateur"
+  },
+  "NavLinks": {
+    "home": "Accueil",
+    "search": "Recherche",
+    "newLocation": "Ajouter un emplacement",
+    "login": "Connexion",
+    "signup": "Inscription",
+    "logout": "Déconnexion",
+    "account": "Mon compte",
+    "locations": "Mes emplacements",
+    "mylikes": "Mes favoris"
+  },
+  "Home": {
+    "title": "Bienvenue sur City Review",
+    "description": "City Review est le meilleur site web pour partager vos emplacements préférés et en découvrir de nouveaux !",
+    "description2": "Si vous souhaitez explorer le monde ou simplement votre ville, vous êtes au bon endroit. Nous avons les meilleures critiques pour vous, faites par des personnes comme vous qui aiment voyager. Nous avons des critiques des meilleurs endroits du monde, des meilleurs restaurants, des meilleurs bars, des parcs et bien plus encore. Vous pouvez également partager vos expériences avec nous et aider d'autres personnes à passer un bon moment.",
+    "lastLocations": "Voici les derniers emplacements téléchargés par nos utilisateurs"
+  },
+  "AddPlace": {
+    "title": "Ajouter un lieu",
+    "description": "Ajouter un lieu à la base de données."
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "Changer de langue"
+  },
+  "Auth": {
+    "username": {
+      "title": "Nom d'utilisateur",
+      "description": "Le nom d'utilisateur est utilisé pour l'authentification.",
+      "selectUsername": "Choisissez un nom d'utilisateur original.",
+      "usernameRequired": "Le nom d'utilisateur est requis.",
+      "usernameLength": "Le nom d'utilisateur doit comporter au moins 3 caractères.",
+      "usernameTaken": "Le nom d'utilisateur existe déjà, veuillez en choisir un autre."
+    },
+    "login": {
+      "title": "Connexion",
+      "description": "Connectez-vous pour explorer toutes les fonctionnalités du site.",
+      "email": "E-mail",
+      "password": "Mot de passe",
+      "submit": "Connexion",
+      "emailInvalid": "Adresse e-mail invalide.",
+      "emailRequired": "L'e-mail est requis.",
+      "passwordRequired": "Le mot de passe est requis.",
+      "passwordLength": "Le mot de passe doit comporter au moins 8 caractères."
+    },
+    "signup": {
+      "title": "Inscription",
+      "description": "Inscrivez-vous pour explorer toutes les fonctionnalités du site.",
+      "email": "E-mail",
+      "password": "Mot de passe",
+      "confirmPassword": "Confirmer le mot de passe",
+      "submit": "S'inscrire",
+      "confirmLegal": "Je confirme avoir lu et accepté les conditions d'utilisation et la politique de confidentialité.",
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "country": "Pays",
+      "city": "Ville",
+      "postalCode": "Code postal",
+      "phone": "Téléphone",
+      "emailInvalid": "Adresse e-mail invalide.",
+      "emailRequired": "L'e-mail est requis.",
+      "passwordLength": "Le mot de passe doit comporter au moins 8 caractères.",
+      "passwordRequired": "Le mot de passe est requis.",
+      "passwordMatch": "Les mots de passe doivent correspondre.",
+      "confirmLegalError": "Vous devez accepter les conditions d'utilisation et la politique de confidentialité.",
+      "firstNameRequired": "Le prénom est requis.",
+      "lastNameRequired": "Le nom de famille est requis.",
+      "countryRequired": "Le pays est requis.",
+      "cityRequired": "La ville est requise.",
+      "postalCodeRequired": "Le code postal est requis.",
+      "phoneRequired": "Le téléphone est requis.",
+      "selectCountry": "Sélectionnez un pays",
+      "selectCity": "Sélectionnez une ville",
+      "inputCity": "Commencez à taper le nom d'une ville",
+      "username": "Nom d'utilisateur",
+      "usernameRequired": "Le nom d'utilisateur est requis.",
+      "errorRegistering": "Une erreur s'est produite lors de l'inscription. Veuillez réessayer plus tard.",
+      "successRegistering": "Vous vous êtes inscrit avec succès. Vous serez redirigé vers la page d'accueil dans 5 secondes.",
+      "zipCode": "Code postal",
+      "zipCodeRequired": "Le code postal est requis"
+    },
+    "backToHome": "Retour à l'accueil"
+  },
+  "NewLocation": {
+    "navigation": {
+      "next": "Suivant",
+      "back": "Retour",
+      "submit": "Soumettre",
+      "saveQuit": "Enregistrer et quitter",
+      "help": "Aide"
+    },
+    "address": {
+      "title": "Entrez l'adresse de l'emplacement",
+      "address": "Adresse",
+      "addressRequired": "L'adresse est requise.",
+      "city": "Ville",
+      "street": "Rue",
+      "streetRequired": "La rue est requise.",
+      "cityRequired": "La ville est requise.",
+      "zipcode": "Code postal",
+      "zipcodeRequired": "Le code postal est requis.",
+      "country": "Pays",
+      "countryRequired": "Le pays est requis.",
+      "selectCountry": "Sélectionnez un pays",
+      "selectCity": "Sélectionnez une ville",
+      "inputCity": "Commencez à taper le nom d'une ville"
+    },
+    "name": {
+      "title": "Entrez le nom de l'emplacement",
+      "name": "Nom",
+      "nameRequired": "Le nom est requis."
+    },
+    "structure": {
+      "title": "Quel est le type de lieu ?",
+      "structureRequired": "La structure est requise."
+    },
+    "type": {
+      "title": "Quel type de lieu est-ce ?",
+      "typeRequired": "Le type est requis.",
+      "artisticPeriod": "De quel période artistique s'agit-il ?",
+      "artType": "Quel type d'art est-ce ?",
+      "starRestaurant": "Combien d'étoiles le restaurant a-t-il ?",
+      "parkType": "Est-ce un parc public ou privé ?"
+    },
+    "amenities": {
+      "title": "Sélectionnez les équipements de l'emplacement",
+      "amenities": "Équipements",
+      "amenitiesRequired": "Les équipements sont requis."
+    },
+    "description": {
+      "title": "Entrez une description de l'emplacement",
+      "description": "Description",
+      "descriptionRequired": "La description est requise."
+    },
+    "price": {
+      "title": "L'emplacement est-il gratuit ou payant ?",
+      "free": "Gratuit",
+      "paid": "Payant",
+      "price": "Prix",
+      "freeLocation": "L'emplacement est gratuit.",
+      "priceRequired": "Le prix est requis.",
+      "priceRange": "Plage de prix",
+      "exactPrice": "L'emplacement a-t-il un prix fixe ?"
+    },
+    "pictures": {
+      "title": "Veuillez télécharger quelques photos de l'emplacement"
+    },
+    "title": "Créer un nouvel emplacement",
+    "newDescription": "Si vous souhaitez partager un nouvel emplacement avec la communauté, vous êtes au bon endroit !",
+    "newDescription2": "Cliquez sur le bouton ci-dessous pour créer un nouvel emplacement"
+  },
+  "Locations": {
+    "author": "Auteur",
+    "amenitiesOptions": {
+      "wifi": "Wi-Fi",
+      "parking": "Parking",
+      "wheelchairAccessible": "Accessible en fauteuil roulant",
+      "petFriendly": "Animaux autorisés",
+      "familyFriendly": "Adapté aux familles",
+      "outdoorSeating": "Places assises en plein air",
+      "smokingArea": "Espace fumeur",
+      "airConditioning": "Climatisation",
+      "checkroom": "Vestiaire",
+      "restrooms": "Toilettes"
+    },
+    "structureOptions": {
+      "museum": "Musée",
+      "restaurant": "Restaurant",
+      "bar": "Bar",
+      "park": "Parc"
+    },
+    "typeOptions": {
+      "museum": {
+        "art": "Art",
+        "history": "Histoire",
+        "science": "Science",
+        "artisticPeriod": {
+          "renaissance": "Renaissance",
+          "baroque": "Baroque",
+          "modern": "Moderne"
+        }
+      },
+      "bar": {
+        "pub": "Pub",
+        "cocktailBar": "Bar à cocktails",
+        "wineBar": "Bar à vin"
+      },
+      "restaurant": {
+        "fastFood": "Restauration rapide",
+        "gourmet": "Gastronomique",
+        "local": "Local",
+        "starRestaurant": {
+          "zeroStar": "Zéro étoile",
+          "oneStar": "Une étoile",
+          "twoStars": "Deux étoiles",
+          "threeStars": "Trois étoiles"
+        }
+      },
+      "park": {
+        "national": "National",
+        "city": "Ville",
+        "botanical": "Botanique",
+        "public": "Public",
+        "private": "Privé"
+      }
+    },
+    "artisticPeriods": {
+      "renaissance": "Renaissance",
+      "baroque": "Baroque",
+      "modern": "Moderne",
+      "ancient": "Ancien",
+      "contemporary": "Contemporain",
+      "romantic": "Romantique",
+      "medieval": "Médiéval",
+      "neoclassical": "Néoclassique"
+    },
+    "artTypes": {
+      "painting": "Peinture",
+      "sculpture": "Sculpture",
+      "photography": "Photographie",
+      "drawing": "Dessin",
+      "installation": "Installation",
+      "performance": "Performance",
+      "digital": "Numérique",
+      "mixedMedia": "Média mixtes"
+    },
+    "likes": "J'aime",
+    "comments": {
+      "title": "Commentaires",
+      "newCommentsMsg": "Avez-vous déjà visité cet endroit ? Partagez votre expérience avec les autres membres !",
+      "addComment": "Partagez votre expérience avec nous.",
+      "send": "Envoyer",
+      "noComments": "Il n'y a aucun commentaire pour le moment. Soyez le premier à partager !",
+      "cancel": "Annuler",
+      "newComment": "Nouveau commentaire",
+      "loginToComment": "Connectez-vous à votre compte pour ajouter un nouveau commentaire !",
+      "login": "Connectez-vous ou inscrivez-vous maintenant",
+      "minComment": "Le commentaire doit comporter au moins 8 caractères",
+      "requiredComment": "Le commentaire est requis",
+      "starsRequired": "Vous devez ajouter une note de 1 à 5 étoiles",
+      "stars": "Étoiles",
+      "newCommentsBfSend": "Qu'est-ce qui était spécial à propos de cet endroit ?",
+      "deleteComment": "Confirmation de suppression",
+      "delete": "Supprimer",
+      "deleteCommentMsg": "Êtes-vous sûr de vouloir supprimer ce commentaire ?"
+    },
+    "share-by": "Partagé par",
+    "created-at": "Créé le",
+    "updated-at": "Mis à jour le",
+    "free": "Gratuit",
+    "priceRange": "Plage de prix",
+    "type": "Type",
+    "price": "Prix",
+    "starsRatingRestaurant": "Étoiles gastronomiques",
+    "artisticPeriod": "Période artistique",
+    "artType": "Type d'art",
+    "public": "Il s'agit d'un parc public",
+    "private": "Il s'agit d'un parc privé",
+    "description": "Description",
+    "amenitiesDescription": "Quels équipements offre cet emplacement ?",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "locationDetails": "Voici votre emplacement, que souhaitez-vous faire ?",
+    "locationNotActive": "Votre emplacement n'est pas actif, vous ne pouvez pas le voir pour le moment. L'identifiant de votre emplacement est :",
+    "cancel": "Annuler",
+    "deleteLocation": "Pour confirmer la suppression de votre emplacement, veuillez saisir les chiffres suivants :",
+    "deleteConfirmationMessage": "Votre code :",
+    "confirmCode": "Entrez ici le code de confirmation",
+    "yourlocations": "Vous avez :",
+    "locations": "emplacements",
+    "newLocation": {
+      "recap": "Revoyez les informations que vous avez saisies",
+      "recapDisplay": "Voici à quoi ressemblera votre emplacement :"
+    },
+    "clear": "Effacer les filtres",
+    "yourlocationsliked": "Vos favoris :"
+  },
+  "like": {
+    "loginContent": "Vous devez être connecté pour aimer un emplacement",
+    "login": "Connexion",
+    "ok": "Ok"
+  },
+  "search": "Recherche...",
+  "searchTitle": "Rechercher un emplacement"
+}

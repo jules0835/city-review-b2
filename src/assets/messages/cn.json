@@ -1,0 +1,299 @@
+{
+  "TitleTranslation": {
+    "home": "首页",
+    "authentication": "认证",
+    "notFound": "页面未找到",
+    "locationImage": "地点图片",
+    "location": "位置",
+    "locations": "地点",
+    "userAccount": "用户账户",
+    "locationEdit": "位置编辑",
+    "userLocation": "用户位置",
+    "newLocation": "新地点",
+    "userLocations": "用户地点",
+    "userLocationsLiked": "用户喜欢的地点"
+  },
+  "NavLinks": {
+    "home": "首页",
+    "search": "搜索",
+    "newLocation": "添加地点",
+    "login": "登录",
+    "signup": "注册",
+    "logout": "登出",
+    "account": "我的账户",
+    "locations": "我的位置",
+    "mylikes": "我的收藏"
+  },
+  "Home": {
+    "title": "欢迎来到城市评测",
+    "description": "城市评测是分享您喜爱的地点和发现下一个地点的最佳网站！",
+    "description2": "如果您想探索世界或只是您所在城市，您来对地方了。我们有您所需的最佳评测，由像您一样热爱旅行的人制作。我们有世界上最好的地方、最好的餐厅、最好的酒吧、公园等等的评测。您也可以与我们分享您的经验，帮助其他人度过愉快的时光。",
+    "lastLocations": "这是我们的用户上传的最新地点"
+  },
+  "AddPlace": {
+    "title": "添加地点",
+    "description": "将地点添加到数据库中。"
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "切换语言"
+  },
+  "Auth": {
+    "username": {
+      "title": "用户名",
+      "description": "用户名用于认证。",
+      "selectUsername": "选择一个原始用户名。",
+      "usernameRequired": "用户名是必需的。",
+      "usernameLength": "用户名必须至少为3个字符。",
+      "usernameTaken": "用户名已存在，请选择另一个。"
+    },
+    "login": {
+      "title": "登录",
+      "description": "登录以探索网站的所有功能。",
+      "email": "电子邮件",
+      "password": "密码",
+      "submit": "登录",
+      "emailInvalid": "无效的电子邮件地址。",
+      "emailRequired": "电子邮件是必需的。",
+      "passwordRequired": "密码是必需的。",
+      "passwordLength": "密码必须至少为8个字符。"
+    },
+    "signup": {
+      "title": "注册",
+      "description": "注册以探索网站的所有功能。",
+      "email": "电子邮件",
+      "password": "密码",
+      "confirmPassword": "确认密码",
+      "submit": "注册",
+      "confirmLegal": "我确认我已阅读并同意服务条款和隐私政策。",
+      "firstName": "名字",
+      "lastName": "姓氏",
+      "country": "国家",
+      "city": "城市",
+      "postalCode": "邮政编码",
+      "phone": "电话",
+      "emailInvalid": "无效的电子邮件地址。",
+      "emailRequired": "电子邮件是必需的。",
+      "passwordLength": "密码必须至少为8个字符。",
+      "passwordRequired": "密码是必需的。",
+      "passwordMatch": "密码必须匹配。",
+      "confirmLegalError": "您必须同意服务条款和隐私政策。",
+      "firstNameRequired": "名字是必需的。",
+      "lastNameRequired": "姓氏是必需的。",
+      "countryRequired": "国家是必需的。",
+      "cityRequired": "城市是必需的。",
+      "postalCodeRequired": "邮政编码是必需的。",
+      "phoneRequired": "电话是必需的。",
+      "selectCountry": "选择一个国家",
+      "selectCity": "选择一个城市",
+      "inputCity": "开始输入城市名称",
+      "username": "用户名",
+      "usernameRequired": "用户名是必需的。",
+      "errorRegistering": "注册过程中出现错误。请稍后再试。",
+      "successRegistering": "您已成功注册。您将在5秒钟内重定向到首页。",
+      "zipCode": "邮政编码",
+      "zipCodeRequired": "邮政编码是必需的"
+    },
+    "backToHome": "返回首页"
+  },
+  "NewLocation": {
+    "navigation": {
+      "next": "下一步",
+      "back": "返回",
+      "submit": "提交",
+      "saveQuit": "保存并退出",
+      "help": "帮助"
+    },
+    "address": {
+      "title": "输入地点的地址",
+      "address": "地址",
+      "addressRequired": "地址是必需的。",
+      "city": "城市",
+      "street": "街道",
+      "streetRequired": "街道是必需的。",
+      "cityRequired": "城市是必需的。",
+      "zipcode": "邮政编码",
+      "zipcodeRequired": "邮政编码是必需的。",
+      "country": "国家",
+      "countryRequired": "国家是必需的。",
+      "selectCountry": "选择一个国家",
+      "selectCity": "选择一个城市",
+      "inputCity": "开始输入城市名称"
+    },
+    "name": {
+      "title": "输入地点的名称",
+      "name": "名称",
+      "nameRequired": "名称是必需的。"
+    },
+    "structure": {
+      "title": "地点的类型是什么？",
+      "structureRequired": "结构是必需的。"
+    },
+    "type": {
+      "title": "它是什么类型的地点？",
+      "typeRequired": "类型是必需的。",
+      "artisticPeriod": "它属于哪个艺术时期？",
+      "artType": "它是什么类型的艺术？",
+      "starRestaurant": "这家餐厅有几颗星？",
+      "parkType": "它是公共还是私人公园？"
+    },
+    "amenities": {
+      "title": "选择地点的设施",
+      "amenities": "设施",
+      "amenitiesRequired": "设施是必需的。"
+    },
+    "description": {
+      "title": "输入地点的描述",
+      "description": "描述",
+      "descriptionRequired": "描述是必需的。"
+    },
+    "price": {
+      "title": "地点是免费的还是有价格的？",
+      "free": "免费",
+      "paid": "付费",
+      "price": "价格",
+      "freeLocation": "地点是免费的。",
+      "priceRequired": "价格是必需的。",
+      "priceRange": "价格范围",
+      "exactPrice": "地点是否有固定价格？"
+    },
+    "pictures": {
+      "title": "请上传地点的一些图片"
+    },
+    "title": "创建新地点",
+    "newDescription": "如果您想与社区分享新地点，您来对地方了！",
+    "newDescription2": "点击下面的按钮创建新地点"
+  },
+  "Locations": {
+    "author": "作者",
+    "amenitiesOptions": {
+      "wifi": "Wi-Fi",
+      "parking": "停车场",
+      "wheelchairAccessible": "轮椅通道",
+      "petFriendly": "宠物友好",
+      "familyFriendly": "家庭友好",
+      "outdoorSeating": "户外座位",
+      "smokingArea": "吸烟区",
+      "airConditioning": "空调",
+      "checkroom": "寄存室",
+      "restrooms": "洗手间"
+    },
+    "structureOptions": {
+      "museum": "博物馆",
+      "restaurant": "餐厅",
+      "bar": "酒吧",
+      "park": "公园"
+    },
+    "typeOptions": {
+      "museum": {
+        "art": "艺术",
+        "history": "历史",
+        "science": "科学",
+        "artisticPeriod": {
+          "renaissance": "文艺复兴",
+          "baroque": "巴洛克",
+          "modern": "现代"
+        }
+      },
+      "bar": {
+        "pub": "酒吧",
+        "cocktailBar": "鸡尾酒酒吧",
+        "wineBar": "酒吧"
+      },
+      "restaurant": {
+        "fastFood": "快餐",
+        "gourmet": "美食",
+        "local": "当地",
+        "starRestaurant": {
+          "zeroStar": "零星",
+          "oneStar": "一星",
+          "twoStars": "两星",
+          "threeStars": "三星"
+        }
+      },
+      "park": {
+        "national": "国家",
+        "city": "城市",
+        "botanical": "植物园",
+        "public": "公共",
+        "private": "私人"
+      }
+    },
+    "artisticPeriods": {
+      "renaissance": "文艺复兴",
+      "baroque": "巴洛克",
+      "modern": "现代",
+      "ancient": "古代",
+      "contemporary": "当代",
+      "romantic": "浪漫主义",
+      "medieval": "中世纪",
+      "neoclassical": "新古典主义"
+    },
+    "artTypes": {
+      "painting": "绘画",
+      "sculpture": "雕塑",
+      "photography": "摄影",
+      "drawing": "绘图",
+      "installation": "装置艺术",
+      "performance": "表演",
+      "digital": "数字艺术",
+      "mixedMedia": "多媒体"
+    },
+    "likes": "喜欢",
+    "comments": {
+      "title": "评论",
+      "newCommentsMsg": "您曾经去过这个地方吗？与其他会员分享您的经验！",
+      "addComment": "与我们分享您的经验。",
+      "send": "发送",
+      "noComments": "目前没有评论。成为第一个分享者！",
+      "cancel": "取消",
+      "newComment": "新评论",
+      "loginToComment": "登录您的帐户以添加新评论！",
+      "login": "现在登录或注册",
+      "minComment": "评论必须至少为8个字符",
+      "requiredComment": "评论是必需的",
+      "starsRequired": "您需要添加1到5颗星的评分",
+      "stars": "星级",
+      "newCommentsBfSend": "这个地方有什么特别之处？",
+      "deleteComment": "删除确认",
+      "delete": "删除",
+      "deleteCommentMsg": "您确定要删除此评论吗？"
+    },
+    "share-by": "分享者",
+    "created-at": "创建于",
+    "updated-at": "更新于",
+    "free": "免费",
+    "priceRange": "价格范围",
+    "type": "类型",
+    "price": "价格",
+    "starsRatingRestaurant": "美食星级",
+    "artisticPeriod": "艺术时期",
+    "artType": "艺术类型",
+    "public": "这是一个公共公园",
+    "private": "这是一个私人公园",
+    "description": "描述",
+    "amenitiesDescription": "这个地点提供哪些设施？",
+    "edit": "编辑",
+    "delete": "删除",
+    "locationDetails": "这是您的地点，您想要做什么？",
+    "locationNotActive": "您的位置尚未激活，目前无法查看。您的位置 id 是：",
+    "cancel": "取消",
+    "deleteLocation": "为了确认删除您的位置，请输入以下数字：",
+    "deleteConfirmationMessage": "您的验证码：",
+    "confirmCode": "在此输入确认码",
+    "yourlocations": "您有：",
+    "locations": "个位置",
+    "newLocation": {
+      "recap": "检查您输入的信息",
+      "recapDisplay": "这是您的地点将如何显示："
+    },
+    "clear": "清除筛选",
+    "yourlocationsliked": "您的收藏："
+  },
+  "like": {
+    "loginContent": "您必须登录才能喜欢一个地点",
+    "login": "登录",
+    "ok": "确定"
+  },
+  "search": "搜索...",
+  "searchTitle": "搜索地点"
+}

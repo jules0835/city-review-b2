@@ -1,0 +1,299 @@
+{
+  "TitleTranslation": {
+    "home": "Home",
+    "authentication": "Authentication",
+    "notFound": "Page not found",
+    "locationImage": "Location Image",
+    "location": "Location",
+    "locations": "Locations",
+    "userAccount": "User Account",
+    "locationEdit": "Location Edit",
+    "userLocation": "User Location",
+    "newLocation": "New Location",
+    "userLocations": "User Locations",
+    "userLocationsLiked": "User Locations Liked"
+  },
+  "NavLinks": {
+    "home": "Home",
+    "search": "Search",
+    "newLocation": "Add a Location",
+    "login": "Login",
+    "signup": "Sign Up",
+    "logout": "Logout",
+    "account": "My account",
+    "locations": "My locations",
+    "mylikes": "My favorites"
+  },
+  "Home": {
+    "title": "Welcome to City Review",
+    "description": "City Review is the best website for sharing your favorite locations and discovering your next one!",
+    "description2": "          If you want to explore the world or just your city, you are in the right place. We have the best reviews for you made by people like you who love to travel.           We have reviews of the best places in the world, the best restaurants, the best bars, parks and much more. You can also share your experiences with us and help other people to have a great time.",
+    "lastLocations": "Here are the last locations uploaded by our users"
+  },
+  "AddPlace": {
+    "title": "Add a Place",
+    "description": "Add a place to the database."
+  },
+  "LocaleSwitcher": {
+    "switchLocale": "Switch Language"
+  },
+  "Auth": {
+    "username": {
+      "title": "Username",
+      "description": "Username is used for authentication.",
+      "selectUsername": "Choose an original username.",
+      "usernameRequired": "Username is required.",
+      "usernameLength": "Username must be at least 3 characters long.",
+      "usernameTaken": "Username already exists, please choose another one."
+    },
+    "login": {
+      "title": "Login",
+      "description": "Login to explore all the features of the site.",
+      "email": "Email",
+      "password": "Password",
+      "submit": "Login",
+      "emailInvalid": "Invalid email address.",
+      "emailRequired": "Email is required.",
+      "passwordRequired": "Password is required.",
+      "passwordLength": "Password must be at least 8 characters long."
+    },
+    "signup": {
+      "title": "Sign Up",
+      "description": "Sign up to explore all the features of the site.",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Sign Up",
+      "confirmLegal": "I confirm that I have read and agree to the Terms of Service and Privacy Policy.",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "country": "Country",
+      "city": "City",
+      "postalCode": "Postal Code",
+      "phone": "Phone",
+      "emailInvalid": "Invalid email address.",
+      "emailRequired": "Email is required.",
+      "passwordLength": "Password must be at least 8 characters long.",
+      "passwordRequired": "Password is required.",
+      "passwordMatch": "Passwords must match.",
+      "confirmLegalError": "You must agree to the Terms of Service and Privacy Policy.",
+      "firstNameRequired": "First name is required.",
+      "lastNameRequired": "Last name is required.",
+      "countryRequired": "Country is required.",
+      "cityRequired": "City is required.",
+      "postalCodeRequired": "Postal code is required.",
+      "phoneRequired": "Phone is required.",
+      "selectCountry": "Select a country",
+      "selectCity": "Select a city",
+      "inputCity": "Start typing a city name",
+      "username": "Username",
+      "usernameRequired": "Username is required.",
+      "errorRegistering": "There was an error during registration. Please try again later.",
+      "successRegistering": "You have successfully registered. You will be redirected to the home page in 5 seconds.",
+      "zipCode": "Zip Code",
+      "zipCodeRequired": "Zip Code is required"
+    },
+    "backToHome": "Back to Home"
+  },
+  "NewLocation": {
+    "navigation": {
+      "next": "Next",
+      "back": "Back",
+      "submit": "Submit",
+      "saveQuit": "Save and Quit",
+      "help": "Help"
+    },
+    "address": {
+      "title": "Enter the address of the location",
+      "address": "Address",
+      "addressRequired": "Address is required.",
+      "city": "City",
+      "street": "Street",
+      "streetRequired": "Street is required.",
+      "cityRequired": "City is required.",
+      "zipcode": "Zip Code",
+      "zipcodeRequired": "Zip code is required.",
+      "country": "Country",
+      "countryRequired": "Country is required.",
+      "selectCountry": "Select a country",
+      "selectCity": "Select a city",
+      "inputCity": "Start typing a city name"
+    },
+    "name": {
+      "title": "Enter the name of the location",
+      "name": "Name",
+      "nameRequired": "Name is required."
+    },
+    "structure": {
+      "title": "What is the type of location?",
+      "structureRequired": "Structure is required."
+    },
+    "type": {
+      "title": "What type of location is it?",
+      "typeRequired": "Type is required.",
+      "artisticPeriod": "What artistic period is it from?",
+      "artType": "What type of art is it?",
+      "starRestaurant": "How many stars does the restaurant have?",
+      "parkType": "Is it a public or private park?"
+    },
+    "amenities": {
+      "title": "Select the amenities of the location",
+      "amenities": "Amenities",
+      "amenitiesRequired": "Amenities are required."
+    },
+    "description": {
+      "title": "Enter a description of the location",
+      "description": "Description",
+      "descriptionRequired": "Description is required."
+    },
+    "price": {
+      "title": "Is the location free or does it have a price?",
+      "free": "Free",
+      "paid": "Paid",
+      "price": "Price",
+      "freeLocation": "The location is free.",
+      "priceRequired": "Price is required.",
+      "priceRange": "Price Range",
+      "exactPrice": "Does the location have a fixed price?"
+    },
+    "pictures": {
+      "title": "Please upload some pictures of the location"
+    },
+    "title": "Create a new location",
+    "newDescription": "If you want to share a new location with the community, you are in the right place!",
+    "newDescription2": "Click the button below to create a new location"
+  },
+  "Locations": {
+    "author": "Author",
+    "amenitiesOptions": {
+      "wifi": "Wi-Fi",
+      "parking": "Parking",
+      "wheelchairAccessible": "Wheelchair Accessible",
+      "petFriendly": "Pet Friendly",
+      "familyFriendly": "Family Friendly",
+      "outdoorSeating": "Outdoor Seating",
+      "smokingArea": "Smoking Area",
+      "airConditioning": "Air Conditioning",
+      "checkroom": "Checkroom",
+      "restrooms": "Restrooms"
+    },
+    "structureOptions": {
+      "museum": "Museum",
+      "restaurant": "Restaurant",
+      "bar": "Bar",
+      "park": "Park"
+    },
+    "typeOptions": {
+      "museum": {
+        "art": "Art",
+        "history": "History",
+        "science": "Science",
+        "artisticPeriod": {
+          "renaissance": "Renaissance",
+          "baroque": "Baroque",
+          "modern": "Modern"
+        }
+      },
+      "bar": {
+        "pub": "Pub",
+        "cocktailBar": "Cocktail Bar",
+        "wineBar": "Wine Bar"
+      },
+      "restaurant": {
+        "fastFood": "Fast Food",
+        "gourmet": "Gourmet",
+        "local": "Local",
+        "starRestaurant": {
+          "zeroStar": "Zero Star",
+          "oneStar": "One Star",
+          "twoStars": "Two Stars",
+          "threeStars": "Three Stars"
+        }
+      },
+      "park": {
+        "national": "National",
+        "city": "City",
+        "botanical": "Botanical",
+        "public": "Public",
+        "private": "Private"
+      }
+    },
+    "artisticPeriods": {
+      "renaissance": "Renaissance",
+      "baroque": "Baroque",
+      "modern": "Modern",
+      "ancient": "Ancient",
+      "contemporary": "Contemporary",
+      "romantic": "Romantic",
+      "medieval": "Medieval",
+      "neoclassical": "Neoclassical"
+    },
+    "artTypes": {
+      "painting": "Painting",
+      "sculpture": "Sculpture",
+      "photography": "Photography",
+      "drawing": "Drawing",
+      "installation": "Installation",
+      "performance": "Performance",
+      "digital": "Digital",
+      "mixedMedia": "Mixed Media"
+    },
+    "likes": "Likes",
+    "comments": {
+      "title": "Comments",
+      "newCommentsMsg": "Have you ever visited this place? Share your experience with other members!",
+      "addComment": "Share your experience with us.",
+      "send": "Send",
+      "noComments": "There are no comments at the moment. Be the first one to share!",
+      "cancel": "Cancel",
+      "newComment": "New Comment",
+      "loginToComment": "Log in to your account to add a new comment!",
+      "login": "Login or Sign Up now",
+      "minComment": "Comment must be at least 8 characters",
+      "requiredComment": "Comment is required",
+      "starsRequired": "You need to add a rating from 1 to 5 stars",
+      "stars": "Stars",
+      "newCommentsBfSend": "What was special about this place?",
+      "deleteComment": "Delete confirmation",
+      "delete": "Delete",
+      "deleteCommentMsg": "Are you sure you want to delete this comment?"
+    },
+    "share-by": "Shared by",
+    "created-at": "Created at",
+    "updated-at": "Updated at",
+    "free": "Free",
+    "priceRange": "Price Range",
+    "type": "Type",
+    "price": "Price",
+    "starsRatingRestaurant": "Gourmet Stars",
+    "artisticPeriod": "Artistic Period",
+    "artType": "Art Type",
+    "public": "This is a public park",
+    "private": "This is a private park",
+    "description": "Description",
+    "amenitiesDescription": "What amenities does this location offer?",
+    "edit": "Edit",
+    "delete": "Delete",
+    "locationDetails": "Here is your location, what do you want to do ?",
+    "locationNotActive": "Your location is not active, you can't see it for the moment. Your location id is :",
+    "cancel": "Cancel",
+    "deleteLocation": "To confirm the deletion of your location, please enter the following numbers : ",
+    "deleteConfirmationMessage": "Your code :",
+    "confirmCode": "Enter here the confirmation code",
+    "yourlocations": "You have : ",
+    "locations": " locations",
+    "newLocation": {
+      "recap": "Look over the information you have entered",
+      "recapDisplay": "Here is what your location will look like :"
+    },
+    "clear": "Clear filters",
+    "yourlocationsliked": "Your favorites :"
+  },
+  "like": {
+    "loginContent": "You must be logged in to like a location",
+    "login": "Login",
+    "ok": "Ok"
+  },
+  "search": "Search...",
+  "searchTitle": "Search a location"
+}
