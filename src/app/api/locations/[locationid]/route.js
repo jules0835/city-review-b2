@@ -21,9 +21,9 @@ export async function POST(request) {
 
 export async function DELETE(request, { params }) {
   await mwdb()
-  const { locationId } = params
+  const { locationid } = params
 
-  await deleteLocation(locationId)
+  await deleteLocation(locationid)
 
   return NextResponse.json({ message: "Location deleted" }, { status: 200 })
 }

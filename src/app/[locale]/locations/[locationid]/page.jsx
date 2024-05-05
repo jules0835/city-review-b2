@@ -22,7 +22,7 @@ const LocationPage = async ({ params }) => {
 
   return (
     <div className="mt-5 md:mx-10 mx-2">
-      <Location location={location} />
+      {location && <Location location={location} />}
     </div>
   )
 }

@@ -13,7 +13,7 @@ const Location = async ({ location }) => {
     <div className="pb-20">
       <div className="flex justify-between items-center">
         <div className="font-bold text-2xl">
-          <h1>{location.name}</h1>
+          <h1>{location?.name}</h1>
         </div>
         <div className="flex items-center">
           <ShareButton locationId={location._id} />
