@@ -38,6 +38,3 @@ next-env.d.ts
 
 # IDE
 /recap.txt
-
-# images
-/public/images/locations
