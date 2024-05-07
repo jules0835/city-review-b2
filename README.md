@@ -6,7 +6,7 @@ First, set the environment variables in a `.env` file in the root of the project
 
 ```bash
 MONGODB_URI= URI to your MongoDB database
-NEXTAUTH_SECRET= A random string used to encrypt the JWTs
+NEXTAUTH_SECRET=jhbvcdrtyujnefnerpger
 NEXTAUTH_URL=http://localhost:3000 # The URL of your Next.js app
 SERVER_URL=http://localhost:3000 # The URL of your Next.js app
 ```
