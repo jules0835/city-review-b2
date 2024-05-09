@@ -37,6 +37,8 @@ const SearchFiltersBar = () => {
   const [inputSearch, setInputSearch] = useState(search)
   const [nameTypes, setNameTypes] = useState([])
   const debouncedSearch = useDebounce(inputSearch, 500)
+  let timeoutId = null
+  let timeoutId2 = null
 
   useEffect(() => {
     const structureType = locationType.find((type) => type[structureQuery])
@@ -88,22 +90,25 @@ const SearchFiltersBar = () => {
           type="text"
           name="search"
           placeholder={t("search")}
-          value={inputSearch}
+          value={inputSearch || ""}
           onChange={(e) => setInputSearch(e.target.value)}
           className="p-3 border border-gray-300 rounded-xl"
         />
         <div className="flex items-center space-x-7">
           <div className="flex items-center space-x-4">
             <div
-              onMouseEnter={() => setShowCountryInput(true)}
-              onMouseLeave={() =>
-                setTimeout(() => setShowCountryInput(false), 2000)
-              }
+              onMouseEnter={() => {
+                setShowCountryInput(true)
+                clearTimeout(timeoutId)
+              }}
+              onMouseLeave={() => {
+                timeoutId = setTimeout(() => setShowCountryInput(false), 5000)
+              }}
             >
               <div className={showCountryInput ? "block" : "hidden"}>
                 <CountrySelector
                   styles="p-3 border border-gray-300 rounded-xl cursor-pointer"
-                  country={countryQuery}
+                  country={countryQuery || ""}
                   changeCountry={(country) => setCountryQuery(country)}
                 />
               </div>
@@ -123,17 +128,20 @@ const SearchFiltersBar = () => {
           {countryQuery && (
             <div className="flex items-center ">
               <div
-                onMouseEnter={() => setShowCityInput(true)}
-                onMouseLeave={() =>
-                  setTimeout(() => setShowCityInput(false), 5000)
-                }
+                onMouseEnter={() => {
+                  setShowCityInput(true)
+                  clearTimeout(timeoutId2)
+                }}
+                onMouseLeave={() => {
+                  timeoutId2 = setTimeout(() => setShowCityInput(false), 5000)
+                }}
                 className="flex items-center "
               >
                 <div className={showCityInput ? "block" : "hidden"}>
                   <CitySelector
                     styles="p-3 border border-gray-300 rounded-xl"
-                    country={countryQuery}
-                    city={cityQuery}
+                    country={countryQuery || ""}
+                    city={cityQuery || ""}
                     changeCity={(city) => setCityQuery(city)}
                   />
                 </div>
